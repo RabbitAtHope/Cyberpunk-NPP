@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="Windows-1252" ?>
+<NotepadPlus>
+    <LexerStyles>
+        <LexerType name="python" desc="Python" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="247cbe" bgColor="000B1E" fontName="" fontStyle="0" fontSize=""></WordsStyle>
+            <WordsStyle name="COMMENTLINE" styleID="1" fgColor="8A877D" bgColor="000B1E" fontName="" fontStyle="0" fontSize=""></WordsStyle>
+            <WordsStyle name="NUMBER" styleID="2" fgColor="F8B413" bgColor="000B1E" fontName="" fontStyle="0" fontSize=""></WordsStyle>
+            <WordsStyle name="STRING" styleID="3" fgColor="06CDFC" bgColor="000B1E" fontName="" fontStyle="0" fontSize=""></WordsStyle>
+            <WordsStyle name="CHARACTER" styleID="4" fgColor="06CDFC" bgColor="000B1E" fontName="" fontStyle="0" fontSize=""></WordsStyle>
+            <WordsStyle name="KEYWORDS" styleID="5" fgColor="ae4ffc" bgColor="000B1E" fontName="" fontStyle="1" fontSize="" keywordClass="instre1"></WordsStyle>
+            <WordsStyle name="TRIPLE" styleID="6" fgColor="F1FA8C" bgColor="000B1E" fontName="" fontStyle="0" fontSize=""></WordsStyle>
+            <WordsStyle name="TRIPLEDOUBLE" styleID="7" fgColor="F1FA8C" bgColor="000B1E" fontName="" fontStyle="0" fontSize=""></WordsStyle>
+            <WordsStyle name="CLASSNAME" styleID="8" fgColor="fb1788" bgColor="000B1E" fontName="" fontStyle="1" fontSize=""></WordsStyle>
+            <WordsStyle name="DEFNAME" styleID="9" fgColor="fb1788" bgColor="000B1E" fontName="" fontStyle="0" fontSize=""></WordsStyle>
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="007c6d" bgColor="000B1E" fontName="" fontStyle="1" fontSize=""></WordsStyle>
+            <WordsStyle name="IDENTIFIER" styleID="11" fgColor="ABFC00" bgColor="000B1E" fontName="" fontStyle="0" fontSize=""></WordsStyle>
+            <WordsStyle name="COMMENTBLOCK" styleID="12" fgColor="8A877D" bgColor="000B1E" fontName="" fontStyle="0" fontSize=""></WordsStyle>
+            <WordsStyle name="DECORATOR" styleID="15" fgColor="6A76FB" bgColor="000B1E" fontName="" fontStyle="2" fontSize=""></WordsStyle>
+        </LexerType>
+    </LexerStyles>
+    <GlobalStyles>
+        <!-- Attention : Don't modify the name of styleID="0" -->
+        <WidgetStyle name="Global override" styleID="0" fgColor="247cbe" bgColor="000B1E" fontName="Consolas" fontStyle="0" fontSize="10"></WidgetStyle>
+        <WidgetStyle name="Default Style" styleID="32" fgColor="247cbe" bgColor="000B1E" fontName="Consolas" fontStyle="0" fontSize="10"></WidgetStyle>
+        <WidgetStyle name="Indent guideline style" styleID="37" fgColor="FFFFFF" bgColor="000B1E" fontName="" fontStyle="0" fontSize=""></WidgetStyle>
+        <WidgetStyle name="Brace highlight style" styleID="34" fgColor="FFFFFF" bgColor="BD93F9" fontName="" fontStyle="1" fontSize="10"></WidgetStyle>
+        <WidgetStyle name="Bad brace colour" styleID="35" fgColor="FFFFFF" bgColor="FD6F6B" fontName="" fontStyle="0" fontSize=""></WidgetStyle>
+        <WidgetStyle name="Current line background colour" styleID="0" bgColor="2F3142" fgColor="FFFFFF" fontSize="" fontStyle="0"></WidgetStyle>
+        <WidgetStyle name="Selected text colour" styleID="0" bgColor="44475A" fgColor="FFFFFF" fontStyle="0"></WidgetStyle>
+        <WidgetStyle name="Caret colour" styleID="2069" fgColor="FFFFFF" bgColor="000B1E" fontStyle="0"></WidgetStyle>
+        <WidgetStyle name="Edge colour" styleID="0" fgColor="FFFFFF" bgColor="000B1E" fontSize="" fontStyle="0"></WidgetStyle>
+        <WidgetStyle name="Line number margin" styleID="33" fgColor="FFFFFF" bgColor="000B1E" fontName="" fontStyle="0" fontSize=""></WidgetStyle>
+        <WidgetStyle name="Fold" styleID="0" fgColor="BD93F9" bgColor="000B1E" fontStyle="0" fontSize=""></WidgetStyle>
+        <WidgetStyle name="Fold active" styleID="0" fgColor="BD93F9" fontStyle="0" fontSize="" bgColor="000B1E"></WidgetStyle>
+        <WidgetStyle name="Fold margin" styleID="0" fgColor="000B1E" bgColor="000B1E" fontStyle="0" fontSize=""></WidgetStyle>
+        <WidgetStyle name="White space symbol" styleID="0" fgColor="FFFFFF" bgColor="000B1E" fontStyle="0" fontSize=""></WidgetStyle>
+        <WidgetStyle name="URL hovered" styleID="0" fgColor="F1FA8C" bgColor="000B1E" fontStyle="0" fontSize=""></WidgetStyle>
+        <WidgetStyle name="Tags attribute" styleID="26" bgColor="000B1E" fgColor="FFFFFF" fontStyle="0"></WidgetStyle>
+        <WidgetStyle name="Tags match highlighting" styleID="27" bgColor="BD93F9" fgColor="FFCAB0" fontStyle="0" fontSize="10"></WidgetStyle>
+        <WidgetStyle name="Smart HighLighting" styleID="29" bgColor="68FDFE" fgColor="FFFFFF" fontSize="" fontStyle="1"></WidgetStyle>
+        <WidgetStyle name="Active tab focused indicator" styleID="0" fgColor="FD6F6B" fontStyle="0" bgColor="181880"></WidgetStyle>
+        <WidgetStyle name="Multi-selected text color" styleID="0" bgColor="44475A"></WidgetStyle>
+        <WidgetStyle name="Multi-edit carets color" styleID="0" fgColor="FFFFFF"></WidgetStyle>
+        <WidgetStyle name="Change History modified" styleID="0" fgColor="FF8000" bgColor="FF8000"></WidgetStyle>
+        <WidgetStyle name="Change History revert modified" styleID="0" fgColor="A0C000" bgColor="A0C000"></WidgetStyle>
+        <WidgetStyle name="Change History revert origin" styleID="0" fgColor="40A0BF" bgColor="40A0BF"></WidgetStyle>
+        <WidgetStyle name="Change History saved" styleID="0" fgColor="00A000" bgColor="00A000"></WidgetStyle>
+        <WidgetStyle name="EOL custom color" styleID="0" fgColor="DADADA"></WidgetStyle>
+        <WidgetStyle name="Non-printing characters custom color" styleID="0" fgColor="FFFFFF"></WidgetStyle>
+    </GlobalStyles>
+</NotepadPlus>
